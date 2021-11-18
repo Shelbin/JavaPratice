@@ -1,4 +1,4 @@
-package testcase.assertion;
+package junit4test.assertion;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class AdditionTest {
 
-    // 初始化操作
+    // 初始化操作，数据驱动
     @Parameterized.Parameters(name = "{index}: {0} + {1} = {2}")
     public static Iterable<Object[]> data() {
         return Arrays.asList(new Object[][] {{0,0,0}, {1,1,2},

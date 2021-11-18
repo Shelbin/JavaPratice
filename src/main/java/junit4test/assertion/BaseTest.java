@@ -1,4 +1,4 @@
-package testcase;
+package junit4test.assertion;
 
 import java.util.HashMap;
 

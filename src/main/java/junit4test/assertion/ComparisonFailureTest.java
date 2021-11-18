@@ -1,4 +1,4 @@
-package testcase.assertion;
+package junit4test.assertion;
 
 import org.junit.ComparisonFailure;
 import org.junit.Test;

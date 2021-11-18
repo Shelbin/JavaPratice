@@ -1,3 +1,5 @@
+package junit4test.assertion;
+
 import org.junit.Test;
 
 public class CaseTest {
