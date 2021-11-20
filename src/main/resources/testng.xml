@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+    <!--执行整个类-->
+    <test name="calculator_all_class">
+        <classes>
+            <!-- 指定类名，可以添加多个-->
+            <class name="testng.CalculatorTest"></class>
+        </classes>
+    </test>
+
+    <!--仅执行某个方法-->
+    <test name="calculator_one_method">
+        <classes>
+            <class name="testng.CalculatorTest">
+                <methods>
+                    <!--指定方法名，可以添加多个-->
+                    <include name="testAdd"></include>
+                    <!--<include name="testSub"></include>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
